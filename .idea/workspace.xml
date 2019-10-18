@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae821191-b4d4-4176-bef8-2e630d4ffa2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KlasaPrz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Silnia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Silnia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SilniaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SilniaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/newProject-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/LiczbaPierwszaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LiczbaPierwszaTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LiczbaPierwszaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LiczbaPierwszaTest.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,21 +52,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LiczbaPierwszaTest.shouldCheckIfLiczbaPierwsza">
-    <configuration name="LiczbaPierwszaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SilniaTest.shouldNaturalNumber">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainApp" />
       <module name="czyLiczbaPierwsza" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiczbaPierwszaTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiczbaPierwszaTest.shouldCheckIfLiczbaPierwsza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SilniaTest.shouldCalcFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="czyLiczbaPierwsza" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiczbaPierwszaTest" />
-      <option name="METHOD_NAME" value="shouldCheckIfLiczbaPierwsza" />
+      <option name="MAIN_CLASS_NAME" value="SilniaTest" />
+      <option name="METHOD_NAME" value="shouldCalcFactorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SilniaTest.shouldCalcFactorialWhenNumberIsBelowZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="czyLiczbaPierwsza" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SilniaTest" />
+      <option name="METHOD_NAME" value="shouldCalcFactorialWhenNumberIsBelowZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SilniaTest.shouldCalcFactorialWhenZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="czyLiczbaPierwsza" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SilniaTest" />
+      <option name="METHOD_NAME" value="shouldCalcFactorialWhenZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SilniaTest.shouldNaturalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="czyLiczbaPierwsza" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SilniaTest" />
+      <option name="METHOD_NAME" value="shouldNaturalNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,8 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LiczbaPierwszaTest.shouldCheckIfLiczbaPierwsza" />
-        <item itemvalue="JUnit.LiczbaPierwszaTest" />
+        <item itemvalue="JUnit.SilniaTest.shouldNaturalNumber" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="JUnit.SilniaTest.shouldCalcFactorialWhenNumberIsBelowZero" />
+        <item itemvalue="JUnit.SilniaTest.shouldCalcFactorialWhenZero" />
+        <item itemvalue="JUnit.SilniaTest.shouldCalcFactorial" />
       </list>
     </recent_temporary>
   </component>
