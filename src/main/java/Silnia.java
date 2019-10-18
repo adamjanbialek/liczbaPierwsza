@@ -18,6 +18,7 @@ public class Silnia {
 
         if(x<0){
             wrongNumber();
+            return a;
         }
 
         return silnia;
