@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="LiczbaPierwszaTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="LiczbaPierwszaTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
@@ -30,7 +30,7 @@
     <property name="maven.ext.class.path" value="F:\Program Files\IntelliJ IDEA Community\IntelliJ IDEA Community Edition 2019.2.2\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="F:\Program Files\IntelliJ IDEA Community\IntelliJ IDEA Community Edition 2019.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_221\bin;F:\Program Files\Git\cmd;C:\Users\Adam\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_221\bin;F:\Program Files\Git\cmd;C:\apache-maven-3.6.2\bin;C:\Users\Adam\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="maven.conf" value="F:\Program Files\IntelliJ IDEA Community\IntelliJ IDEA Community Edition 2019.2.2\plugins\maven\lib\maven3/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -64,5 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="LiczbaPierwszaTest" name="shouldCheckIfLiczbaPierwsza" time="0.003"/>
+  <testcase classname="LiczbaPierwszaTest" name="shouldCheckIfLiczbaPierwsza" time="0.004"/>
 </testsuite>

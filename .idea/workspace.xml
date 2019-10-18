@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae821191-b4d4-4176-bef8-2e630d4ffa2d" name="Default Changelist" comment="" />
+    <list default="true" id="ae821191-b4d4-4176-bef8-2e630d4ffa2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KlasaPrz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/newProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/newProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LiczbaPierwszaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LiczbaPierwszaTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LiczbaPierwszaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LiczbaPierwszaTest.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LiczbaPierwszaTest.shouldCheckIfLiczbaPierwsza">
     <configuration name="LiczbaPierwszaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="czyLiczbaPierwsza" />
       <option name="PACKAGE_NAME" value="" />
@@ -52,8 +62,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LiczbaPierwszaTest.shouldCheckIfLiczbaPierwsza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="czyLiczbaPierwsza" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LiczbaPierwszaTest" />
+      <option name="METHOD_NAME" value="shouldCheckIfLiczbaPierwsza" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LiczbaPierwszaTest.shouldCheckIfLiczbaPierwsza" />
         <item itemvalue="JUnit.LiczbaPierwszaTest" />
       </list>
     </recent_temporary>
@@ -76,7 +97,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
