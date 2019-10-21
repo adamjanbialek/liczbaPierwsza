@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class LiczbaPierwsza {
 
+    public static void podajCyfre() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj liczbę, żeby sprawdzić, czy to liczba pierwsza: ");
+        int sprawdzona = scanner.nextInt();
+        System.out.println(czyLiczbaPierwsza(sprawdzona));
+    }
+
     public static Boolean czyLiczbaPierwsza(int a){
         List<Integer> dzielniki=new ArrayList<Integer>();
         boolean czyPierwsza = false;
@@ -18,13 +25,6 @@ public class LiczbaPierwsza {
         }
 
         return czyPierwsza;
-    }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Podaj liczbę, żeby sprawdzić, czy to liczba pierwsza: ");
-        int sprawdzona = scanner.nextInt();
-        System.out.println(czyLiczbaPierwsza(sprawdzona));
     }
 
 }

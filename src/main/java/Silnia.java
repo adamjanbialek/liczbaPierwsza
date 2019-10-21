@@ -2,9 +2,26 @@ import java.util.Scanner;
 
 public class Silnia {
 
-    public static String wrongNumber(){
-        return "Dla podanej liczby nie można wyliczyć silni";
+    public static void podajLiczbe() {
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Podaj liczbę dla której chcesz wyliczyć silnie.");
+        int a=scanner.nextInt();
+        czyDaSieWyliczycSilnie(a);
     }
+
+
+    public static boolean czyDaSieWyliczycSilnie(int a) {
+        boolean check=true;
+        if (a<0) {
+            check=false;
+        }
+        if(check){
+            czySilnia(a);
+        }
+        return check;
+    }
+
+
     public static int czySilnia(int x) {
         int a=x;
 
@@ -16,18 +33,8 @@ public class Silnia {
             silnia*=i;
         }
 
-        if(x<0){
-            wrongNumber();
-            return a;
-        }
-
         return silnia;
+
     }
 
-    public static void podajLiczbeDoSprawdzenia() {
-        Scanner scanner= new Scanner(System.in);
-        System.out.println("Podaj liczbę dla której chcesz wyliczyć silnie.");
-        int a=scanner.nextInt();
-        czySilnia(a);
-    }
 }

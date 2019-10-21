@@ -16,14 +16,14 @@ public class SilniaTest {
     }
 
     @Test
-    public void shouldCalcFactorialWhenNumberIsBelowZero(){
-        String expected = "Dla podanej liczby nie można wyliczyć silni";
-        Assert.assertEquals(expected,Silnia.czySilnia(-1));
+    public void shouldCheckIfStrongCanBeCalculated(){
+        boolean expected = false;
+        Assert.assertEquals(expected,Silnia.czyDaSieWyliczycSilnie(-1));
     }
 
-    @Test
-    public void shouldNaturalNumber(){
-        boolean expected=true;
-        Assert.assertEquals(expected,MainApp.podajLiczbeDoSprawdzenia());
-    }
+//    @Test
+//    public void shouldNaturalNumber(){
+//        boolean expected=true;
+//        Assert.assertEquals(expected,MainApp.podajLiczbeDoSprawdzenia());
+//    }
 }

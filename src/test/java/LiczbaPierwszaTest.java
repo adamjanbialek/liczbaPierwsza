@@ -6,7 +6,7 @@ import org.junit.Assert;
         @Test
         public void shouldCheckIfLiczbaPierwsza(){
 
-            Assert.assertTrue(LiczbaPierwsza.czyLiczbaPierwsza(2));
+            Assert.assertTrue(LiczbaPierwsza.czyLiczbaPierwsza(7));
             Assert.assertTrue(LiczbaPierwsza.czyLiczbaPierwsza(1));
         }
     }

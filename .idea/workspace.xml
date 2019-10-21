@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae821191-b4d4-4176-bef8-2e630d4ffa2d" name="Default Changelist" comment="" />
+    <list default="true" id="ae821191-b4d4-4176-bef8-2e630d4ffa2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LiczbaPierwsza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LiczbaPierwsza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Silnia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Silnia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LiczbaPierwszaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LiczbaPierwszaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SilniaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SilniaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LiczbaPierwsza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LiczbaPierwsza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Silnia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Silnia.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SilniaTest">
+  <component name="RunManager" selected="Application.MainApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainApp" />
       <module name="czyLiczbaPierwsza" />
@@ -50,20 +60,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SilniaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LiczbaPierwszaTest.shouldCheckIfLiczbaPierwsza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="czyLiczbaPierwsza" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SilniaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="LiczbaPierwszaTest" />
+      <option name="METHOD_NAME" value="shouldCheckIfLiczbaPierwsza" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SilniaTest.shouldCalcFactorialWhenNumberIsBelowZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SilniaTest.shouldCalcFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="czyLiczbaPierwsza" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SilniaTest" />
-      <option name="METHOD_NAME" value="shouldCalcFactorialWhenNumberIsBelowZero" />
+      <option name="METHOD_NAME" value="shouldCalcFactorial" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SilniaTest.shouldNaturalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SilniaTest.shouldCheckIfStrongCanBeCalculated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="czyLiczbaPierwsza" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SilniaTest" />
-      <option name="METHOD_NAME" value="shouldNaturalNumber" />
+      <option name="METHOD_NAME" value="shouldCheckIfStrongCanBeCalculated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SilniaTest" />
-        <item itemvalue="JUnit.SilniaTest.shouldNaturalNumber" />
-        <item itemvalue="JUnit.SilniaTest.shouldCalcFactorialWhenNumberIsBelowZero" />
-        <item itemvalue="JUnit.SilniaTest.shouldCalcFactorialWhenZero" />
         <item itemvalue="Application.MainApp" />
+        <item itemvalue="JUnit.LiczbaPierwszaTest.shouldCheckIfLiczbaPierwsza" />
+        <item itemvalue="JUnit.SilniaTest.shouldCalcFactorial" />
+        <item itemvalue="JUnit.SilniaTest.shouldCalcFactorialWhenZero" />
+        <item itemvalue="JUnit.SilniaTest.shouldCheckIfStrongCanBeCalculated" />
       </list>
     </recent_temporary>
   </component>
